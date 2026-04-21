@@ -68,12 +68,20 @@ sonar-report-tool/
 
 ```
 output/
-├── 20260421-1430-mes-cloud-base.zip
-├── 20260421-1431-ird-epp.zip
-├── mes-cloud-base/          # 临时目录（可删除）
-│   └── dev/
-└── ird-epp/                 # 临时目录（可删除）
-    └── epm-loc-uat/
+├── 20260421-1430-test-project-a.zip
+└── 20260421-1431-test-project-b.zip
+```
+
+zip 内部按分支组织：
+
+```
+test-project-a.zip
+├── main/
+│   ├── test-project-a-analysis.docx
+│   └── test-project-a-analysis.xlsx
+└── dev/
+    ├── test-project-a-analysis.docx
+    └── test-project-a-analysis.xlsx
 ```
 
 ## 兼容性
